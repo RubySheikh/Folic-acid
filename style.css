@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.nav-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color:rgb(9, 85, 85);
+
+}
+
+.nav-li{
+    width: 50%;
+    color: white;
+   display: flex;
+    align-items: center;
+    background-color:rgb(9, 85, 85);
+ 
+}
+
+.nav-li li{
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-li li a[href="index.html"]{
+    color: white;
+}
+.nav-li li a[href="importance.html"]{
+        color: white;
+}
+.nav-li li a[href="risk.html"]{
+    color: white;
+}
+.nav-li li a[href="source.html"]{
+    color: white;
+}
+.nav-li a:hover{
+   
+    text-decoration: none;
+    color:gray;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+  align-items: center;
+   color: white;
+   font-size:30px;
+   
+    background-color:rgb(9, 85, 85);
+}
+h3{
+    color:rgb(9, 85, 85);
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    align-items: center;
+    color: white;
+    background-color:rgb(9, 85, 85);
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+}
+.main{
+    background-color:white;
+    padding: 0;
+    margin:0;
+    padding-left: 15PX;
+    padding-left: 15px;
+  
+}
+footer{
+
+    text-align: center;
+    padding: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color:rgb(9, 85, 85);
+    justify-content: center;
+    align-items: center;
+   color: white;
+}
+@media (max-width: 768px) {
+    .nav-li {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-li li {
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-li a {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
