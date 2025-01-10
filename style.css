@@ -94,6 +94,7 @@ p{
     background-color: transparent;
     height: 50%;
     left-padding:20px;
+    right-padding:20px;
     background-repeat:no-repeat;
     background-blend-mode: darken;
     background-size: cover;
