@@ -80,6 +80,12 @@ p{
     padding-left: 15px;
   
 }
+.main ul{
+    font-size: 18px; 
+    list-style: square;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 26px 30px;
+}
 footer{
 
     text-align: center;
