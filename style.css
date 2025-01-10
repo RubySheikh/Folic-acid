@@ -4,6 +4,10 @@
     box-sizing: border-box;
    
 }
+html, body{
+    height: 100%;
+    margin:0;
+}
 
 .nav-bg{
     display: flex;
@@ -77,6 +81,7 @@ p{
     background-color:white;
     padding: 0;
     margin:0;
+    flex: 1;
     padding-left: 15PX;
     padding-left: 15px;
   
@@ -92,6 +97,7 @@ footer{
     justify-content: center;
     align-items: center;
    color: white;
+    margin-top: auto;
 }
 @media (max-width: 768px) {
     .nav-li {
