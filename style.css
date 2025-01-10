@@ -119,11 +119,8 @@ footer{
         width: 100%;
         height: auto;
         display: block;
-        margin: 0 auto;
-        background-position: center;
-        background-repeat: no repeat;
-        background-blend-mode: darken;
-        background-size: cover;
+        margin: 10px auto;
+        
         
     }
     .main ul{
