@@ -52,7 +52,7 @@ h1{
     text-align: center;
   align-items: center;
    color: white;
-   font-size:30px;
+   font-size:36px;
    font-family: 'Courier New', Courier, monospace;
 }
     background-color:rgb(9, 85, 85);
@@ -64,6 +64,7 @@ h3{
     font-family: 'Courier New', Courier, monospace;
 }
 h2{
+    font-size:32px;
     align-items: center;
     color: white;
     background-color:rgb(9, 85, 85);
