@@ -3,7 +3,6 @@
     padding: 0;
    
 }
-
 .nav-bg{
     display: flex;
     align-items: center;
@@ -12,7 +11,10 @@
     top: 0;
     cursor: pointer;
     background-color:rgb(9, 85, 85);
-
+    width: 100%;
+    background-color: #your-color;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-li{
